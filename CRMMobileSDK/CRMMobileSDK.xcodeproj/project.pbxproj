@@ -85,6 +85,8 @@
 		07F0B2BF1B4E485900213CA1 /* SOAPMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F0B2741B4E485900213CA1 /* SOAPMapper.h */; };
 		07F0B2C01B4E485900213CA1 /* SOAPMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F0B2751B4E485900213CA1 /* SOAPMapper.m */; };
 		07F0B2C11B4E485900213CA1 /* SOAPParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F0B2761B4E485900213CA1 /* SOAPParser.h */; };
+		92EDC6831DC92A3700317045 /* EntityFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EDC6811DC92A3700317045 /* EntityFilter.h */; };
+		92EDC6841DC92A3700317045 /* EntityFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDC6821DC92A3700317045 /* EntityFilter.m */; };
 		B3609AE7324D1BA4AFC2067E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBBFEE0671167AE8BC4E98C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -182,6 +184,8 @@
 		07F0B2761B4E485900213CA1 /* SOAPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOAPParser.h; sourceTree = "<group>"; };
 		3110B1357623E61A6A0B1FFD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4801670C3408AE5406094208 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		92EDC6811DC92A3700317045 /* EntityFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityFilter.h; sourceTree = "<group>"; };
+		92EDC6821DC92A3700317045 /* EntityFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityFilter.m; sourceTree = "<group>"; };
 		BFBBFEE0671167AE8BC4E98C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -310,6 +314,8 @@
 				07F0B2441B4E485900213CA1 /* Entity.m */,
 				07F0B2451B4E485900213CA1 /* EntityCollection.h */,
 				07F0B2461B4E485900213CA1 /* EntityCollection.m */,
+				92EDC6811DC92A3700317045 /* EntityFilter.h */,
+				92EDC6821DC92A3700317045 /* EntityFilter.m */,
 				07F0B2471B4E485900213CA1 /* EntityReference.h */,
 				07F0B2481B4E485900213CA1 /* EntityReference.m */,
 				07F0B2491B4E485900213CA1 /* EntityReferenceCollection.h */,
@@ -429,6 +435,7 @@
 				07F0B2A41B4E485900213CA1 /* NSNull+CRMNull.h in Headers */,
 				07F0B2BE1B4E485900213CA1 /* SOAPGenerator.h in Headers */,
 				07F0B2961B4E485900213CA1 /* EntityReferenceCollection.h in Headers */,
+				92EDC6831DC92A3700317045 /* EntityFilter.h in Headers */,
 				07F0B2B61B4E485900213CA1 /* TraceInfo.h in Headers */,
 				07F0B28E1B4E485900213CA1 /* CRMInteger.h in Headers */,
 				07F0B2B81B4E485900213CA1 /* UIImage+CRMImage.h in Headers */,
@@ -593,6 +600,7 @@
 				07F0B27F1B4E485900213CA1 /* OrganizationRequest.m in Sources */,
 				07F0B2A31B4E485900213CA1 /* NSDecimalNumber+CRMDecimal.m in Sources */,
 				07F0B28B1B4E485900213CA1 /* CRMBoolean.m in Sources */,
+				92EDC6841DC92A3700317045 /* EntityFilter.m in Sources */,
 				07F0B2BB1B4E485900213CA1 /* ValidationResult.m in Sources */,
 				07F0B2B11B4E485900213CA1 /* Relationship.m in Sources */,
 				07F0B2851B4E485900213CA1 /* Responses.m in Sources */,

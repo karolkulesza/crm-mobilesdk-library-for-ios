@@ -10,6 +10,7 @@
 #import "CRMBoolean.h"
 #import "CRMInteger.h"
 #import "ColumnSet.h"
+#import "EntityFilter.h"
 
 
 @interface CreateRequest : OrganizationRequest
@@ -45,6 +46,16 @@
 @interface RetrieveMultipleRequest : OrganizationRequest
 
 @property (nonatomic, strong) QueryBase *query;
+
+@end
+
+
+@interface RetrieveEntityRequest : OrganizationRequest
+
+@property (nonatomic, strong) NSString *logicalName;
+@property (nonatomic, strong) NSUUID *metadataId;
+@property (nonatomic, strong) EntityFilter *entityFilters;
+@property (nonatomic, strong) CRMBoolean *retrieveAsIfPublished;
 
 @end
 

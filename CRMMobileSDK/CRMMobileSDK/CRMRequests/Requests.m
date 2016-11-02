@@ -149,6 +149,56 @@
 @end
 
 
+@implementation RetrieveEntityRequest
+
+- (NSString *)logicalName {
+  return (NSString *)self.parameters[@"LogicalName"];
+}
+
+- (void)setLogicalName:(NSString *)logicalName {
+  self.parameters[@"LogicalName"] = logicalName;
+}
+
+- (NSUUID *)metadataId {
+  return (NSUUID *)self.parameters[@"MetadataId"];
+}
+
+- (void)setMetadataId:(NSUUID *)metadataId {
+  self.parameters[@"MetadataId"] = metadataId;
+}
+
+- (EntityFilter *)entityFilters {
+  return (EntityFilter *)self.parameters[@"EntityFilters"];
+}
+
+- (void)setEntityFilters:(EntityFilter *)entityFilters {
+  self.parameters[@"EntityFilters"] = entityFilters;
+}
+
+- (CRMBoolean *)retrieveAsIfPublished {
+  return (CRMBoolean *)self.parameters[@"RetrieveAsIfPublished"];
+}
+
+- (void)setRetrieveAsIfPublished:(CRMBoolean *)retrieveAsIfPublished {
+  self.parameters[@"RetrieveAsIfPublished"] = retrieveAsIfPublished;
+}
+
+- (NSString *)requestName {
+  return @"RetrieveEntity";
+}
+
+- (void)setRequestName:(NSString *)requestName {
+  [NSException raise:@"Cannot modify Request Name"
+              format:@"Cannot modify the Request Name of a type derived from OrganizationRequest."];
+}
+
++ (NSString *)requestNamespace {
+  return @"a";
+}
+
+@end
+
+
 @implementation AddItemCampaignRequest
 
 - (NSUUID *)campaignId {
