@@ -40,4 +40,5 @@ FOUNDATION_EXPORT const unsigned char CRMMobileSDKVersionString[];
 #import "ValidationResult.h"
 #import "AliasedValue.h"
 #import "NSString+CRMString.h"
+#import "NSString+XMLEncode.h"
 #import "NSUUID+CRMUUID.h"
